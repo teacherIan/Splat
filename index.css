@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'CustomFont';
+  src:
+    url('./assets/bubble_font.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  width: 100svw;
+  height: 100svh;
+
+}
+
+.header {
+  user-select: none;
+  position: absolute;
+  z-index: 1000;
+  font-size: calc(7vw + 7vh + 20px);
+  font-family: CustomFont;
+  color: white;
+  left: 5svw;
+  top: 10svw;
+  color: #77481C;
+}
+
+.header_outline {
+  user-select: none;
+  position: absolute;
+  z-index: 1000;
+  font-size: calc(7vw + 7vh + 25px);
+  font-family: CustomFont;
+  color: white;
+  left: 5svw;
+  top: 10svw;
+  color: #3b3b3b;
+}
