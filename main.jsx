@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <br />
     </div>
 
-    <Canvas camera={{ position: [0, 1, 1.5] }}>
+    <Canvas camera={{ position: [0, 10, 1.5] }}>
       <App />
     </Canvas>
   </React.StrictMode>
